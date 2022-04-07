@@ -1,0 +1,23 @@
+.description-content__text {
+    font-family: "SourceSansProLight";
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 42px;
+    margin: 0;
+    max-width: 560px;
+}
+
+@media screen and (max-width: $tablet) {
+    .description-content__text {
+        display: block;
+        max-width: 668px;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .description-content__text {
+        display: block;
+        font-size: 16px;
+        line-height: 27px;
+    }   
+}

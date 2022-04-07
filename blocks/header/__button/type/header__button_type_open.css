@@ -1,0 +1,18 @@
+@media screen and (max-width: 1023px) {
+  .header__button_type_open {
+    width: 26px;
+    height: 20px;
+    top: 25px;
+    right: 34px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__button_type_open {
+    width: 20px;
+    height: 16px;
+    top: 27px;
+    right: 20px;
+  }
+}
+/*# sourceMappingURL=header__button_type_open.css.map */

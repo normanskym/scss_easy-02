@@ -1,0 +1,15 @@
+.input_type_firstname {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 170px;
+  height: 32px;
+  border-bottom: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 767px) {
+  .input_type_firstname {
+    width: 140px;
+  }
+}
+/*# sourceMappingURL=input_type_firstname.css.map */

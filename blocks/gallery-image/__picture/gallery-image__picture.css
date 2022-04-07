@@ -1,0 +1,21 @@
+.gallery-image__picture {
+  max-width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 1023px) {
+  .gallery-image__picture {
+    margin: 0 auto;
+    width: 700px;
+    height: 510px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gallery-image__picture {
+    margin: 0 auto 30px;
+    width: 280px;
+    height: 204px;
+  }
+}
+/*# sourceMappingURL=gallery-image__picture.css.map */

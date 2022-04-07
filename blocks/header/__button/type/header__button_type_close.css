@@ -1,0 +1,16 @@
+@media screen and (max-width: 1023px) {
+  .header__button_type_close {
+    width: 42px;
+    top: 18px;
+    right: 29px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__button_type_close {
+    width: 40px;
+    top: 16px;
+    right: 12px;
+  }
+}
+/*# sourceMappingURL=header__button_type_close.css.map */

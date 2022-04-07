@@ -1,0 +1,21 @@
+.lead-content__picture {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead-content__picture {
+    display: block;
+    max-height: 510px;
+    max-width: 100%;
+    margin: 100px auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead-content__picture {
+    margin: 60px auto;
+    max-width: 280px;
+    max-height: 202px;
+  }
+}
+/*# sourceMappingURL=lead-content__picture.css.map */

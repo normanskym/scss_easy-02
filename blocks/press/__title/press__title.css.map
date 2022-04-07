@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,aAAa,CAAC;IACV,OAAO,EAAE,IAAI;GAChB",
+    "sources": [
+        "press__title.scss"
+    ],
+    "names": [],
+    "file": "press__title.css"
+}

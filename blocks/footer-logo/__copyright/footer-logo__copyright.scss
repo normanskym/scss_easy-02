@@ -1,0 +1,12 @@
+.footer-logo__copyright {
+    font-size: 13px;
+    line-height: 13px;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: $mobile) {
+    .footer-logo__copyright {
+        display: block;
+        margin: 20px 0 20px 32px;
+    }
+}

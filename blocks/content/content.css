@@ -1,0 +1,24 @@
+.content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 840px auto auto 500px;
+      grid-template-rows: 840px auto auto 500px;
+      grid-template-areas: "lead" "description" "gallery" "press";
+}
+
+@media screen and (max-width: 1023px) {
+  .content {
+    -ms-grid-rows: 1330px 928px 691px 500px;
+        grid-template-rows: 1330px 928px 691px 500px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content {
+    -ms-grid-rows: 740px 656px 320px 287px;
+        grid-template-rows: 740px 656px 320px 287px;
+  }
+}
+/*# sourceMappingURL=content.css.map */

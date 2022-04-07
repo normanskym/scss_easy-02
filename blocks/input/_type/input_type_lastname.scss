@@ -1,0 +1,14 @@
+.input_type_lastname {
+    display: block;
+    box-sizing: border-box;
+    width: 170px;
+    height: 32px;
+    border-bottom: $border;
+    border-left: $border;
+}
+
+@media screen and (max-width: $mobile) {
+    .input_type_lastname {
+        width: 140px;
+    }
+}

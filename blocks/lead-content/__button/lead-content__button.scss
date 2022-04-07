@@ -1,0 +1,26 @@
+.lead-content__button {
+    display: block;
+    margin: 60px auto 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 360px;
+    height: 64px;
+    background: transparent;
+    color: $yellow;
+    border: $border;
+    transition: all .1s linear;
+}
+.lead-content__button:hover {
+    background-color: $yellow;
+    color: $blue;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media screen and (max-width: $mobile) {
+    .lead-content__button {
+        margin: 0 auto;
+        width: 280px;
+        height: 64px;
+    }
+}

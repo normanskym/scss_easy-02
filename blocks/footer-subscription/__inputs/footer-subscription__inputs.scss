@@ -1,0 +1,14 @@
+.footer-subscription__inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 64px 0 50px 50px;
+    width: 340px;
+    border: $border;
+}
+
+@media screen and (max-width: $mobile) {
+    .footer-subscription__inputs {
+        margin: 60px 0 120px 20px;
+        width: 280px;
+    }
+}

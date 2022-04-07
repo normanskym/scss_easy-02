@@ -1,0 +1,29 @@
+.lead-content__button {
+  display: block;
+  margin: 60px auto 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  width: 360px;
+  height: 64px;
+  background: transparent;
+  color: #E1FD2C;
+  border: 1px solid #E1FD2C;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.lead-content__button:hover {
+  background-color: #E1FD2C;
+  color: #191D2C;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .lead-content__button {
+    margin: 0 auto;
+    width: 280px;
+    height: 64px;
+  }
+}
+/*# sourceMappingURL=lead-content__button.css.map */

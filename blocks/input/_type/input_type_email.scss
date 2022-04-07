@@ -1,0 +1,12 @@
+.input_type_email {
+    display: block;
+    box-sizing: border-box;
+    width: 260px;
+    height: 32px;
+}
+
+@media screen and (max-width: $mobile) {
+    .input_type_email {
+        width: 201px;
+    }
+}

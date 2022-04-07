@@ -1,0 +1,14 @@
+.press {
+    grid-area: press;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    ". content";
+    border-bottom: $border;
+}
+
+@media screen and (max-width: $tablet) {
+    .press {
+        display: block;
+    }
+}

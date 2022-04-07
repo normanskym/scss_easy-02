@@ -1,0 +1,16 @@
+.section-title {
+  display: inline-block;
+  font-size: 46px;
+  font-weight: normal;
+  line-height: 46px;
+  margin: 50px 0 0 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .section-title {
+    font-size: 26px;
+    line-height: 26px;
+    margin: 20px 0 0 20px;
+  }
+}
+/*# sourceMappingURL=section-title.css.map */

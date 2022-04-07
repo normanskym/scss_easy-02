@@ -1,0 +1,20 @@
+.lead-content__picture {
+    display: none;
+}
+
+@media screen and (max-width: $tablet) {
+    .lead-content__picture {
+        display: block;
+        max-height: 510px;
+        max-width: 100%;
+        margin: 100px auto;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .lead-content__picture {
+        margin: 60px auto;
+        max-width: 280px;
+        max-height: 202px;
+    }
+}

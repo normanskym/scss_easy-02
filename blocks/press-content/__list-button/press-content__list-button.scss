@@ -1,0 +1,13 @@
+.press-content__list-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 999px;
+    background: transparent;
+    border: $border;
+    box-sizing: border-box;
+    align-self: flex-end;
+}
+
+.press-content__list-button:first-of-type {
+    margin-right: 14px;
+}

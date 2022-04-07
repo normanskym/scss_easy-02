@@ -1,0 +1,15 @@
+@media screen and (max-width: $tablet) {
+    .header__button_type_close {
+        width: 42px;
+        top: 18px;
+        right: 29px;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .header__button_type_close {
+        width: 40px;
+        top: 16px;
+        right: 12px;
+    }
+}

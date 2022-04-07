@@ -1,0 +1,17 @@
+@media screen and (max-width: $tablet) {
+    .header__button_type_open {
+        width: 26px;
+        height: 20px;
+        top: 25px;
+        right: 34px;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .header__button_type_open {
+        width: 20px;
+        height: 16px;
+        top: 27px;
+        right: 20px;
+    }
+}

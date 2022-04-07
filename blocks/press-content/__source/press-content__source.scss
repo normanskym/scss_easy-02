@@ -1,0 +1,13 @@
+.press-content__source {
+    font-family: "SourceSansPro";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+}
+
+@media screen and (max-width: $mobile) {
+    .press-content__source {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}

@@ -1,0 +1,13 @@
+.input_type_firstname {
+    display: block;
+    box-sizing: border-box;
+    width: 170px;
+    height: 32px;
+    border-bottom: $border;
+}
+
+@media screen and (max-width: $mobile) {
+    .input_type_firstname {
+        width: 140px;
+    }
+}
