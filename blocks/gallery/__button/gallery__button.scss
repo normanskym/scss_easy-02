@@ -1,23 +1,21 @@
-.gallery__button-next {
+.gallery__button {
     background: transparent;
-    background-image: url('../images/arrow-right.svg');
     background-size: contain;
     width: 42px;
     height: 34px;
     border: none;
     transition: all .1s linear;
-    margin-right: 52px;
+
 }
 
-.gallery__button-next:hover {
+.gallery__button:hover {
     cursor: pointer;
     opacity: 0.6;
 }
 
 @media screen and (max-width: $mobile) {
-    .gallery__button-next {
+    .gallery__button {
         width: 24px;
         height: 20px;
-        margin-right: 20px;
     }
 }

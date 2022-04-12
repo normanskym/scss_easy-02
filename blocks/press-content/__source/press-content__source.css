@@ -1,5 +1,5 @@
 .press-content__source {
-  font-family: "SourceSansPro";
+  font-family: $font;
   font-weight: 400;
   font-size: 30px;
   line-height: 42px;

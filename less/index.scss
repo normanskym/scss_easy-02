@@ -1,4 +1,5 @@
-@import 'variables.scss';
+@import "./variables.scss";
+@import "./mixins.scss";
 
 @import '../vendor/normalize.scss';
 @import '../vendor/fonts.scss';
@@ -14,8 +15,7 @@
 @import '../blocks/header/__menu-item/header__menu-item.scss';
 @import '../blocks/header/__logo/header__logo.scss';
 @import '../blocks/header/__button/header__button.scss';
-@import '../blocks/header/__button/type/header__button_type_open.scss';
-@import '../blocks/header/__button/type/header__button_type_close.scss';
+@import '../blocks/header/__button/_close/header__button_close.scss';
 @import '../blocks/content/content.scss';
 @import '../blocks/lead/lead.scss';
 @import '../blocks/lead-content/lead-content.scss';
@@ -32,8 +32,9 @@
 @import '../blocks/desctiption-content/__title/description-content__title.scss';
 @import '../blocks/desctiption-content/__text/description-content__text.scss';
 @import '../blocks/gallery/gallery.scss';
-@import '../blocks/gallery/__button-back/gallery__button-back.scss';
-@import '../blocks/gallery/__button-next/gallery__button-next.scss';
+@import '../blocks/gallery/__button/gallery__button.scss';
+@import '../blocks/gallery/__button/_type/gallery__button_type_back.scss';
+@import '../blocks/gallery/__button/_type/gallery__button_type_next.scss';
 @import '../blocks/gallery-image/gallery-image.scss';
 @import '../blocks/gallery-image/__picture/gallery-image__picture.scss';
 @import '../blocks/press/press.scss';
@@ -42,7 +43,7 @@
 @import '../blocks/press-content/__source/press-content__source.scss';
 @import '../blocks/press-content/__text/press-content__text.scss';
 @import '../blocks/press-content/__list-button/press-content__list-button.scss';
-@import '../blocks/press-content/__list-button/_type/press-content__list-button_type_active.scss';
+@import '../blocks/press-content/__list-button/_active/press-content__list-button_active.scss';
 @import '../blocks/press-content/__read-button/press-content__read-button.scss';
 @import '../blocks/footer/footer.scss';
 @import '../blocks/footer-subscription/footer-subscription.scss';

@@ -8,6 +8,10 @@
     align-self: flex-end;
 }
 
+.press-content__list-button:hover {
+    opacity: 0.6;
+}
+
 .press-content__list-button:first-of-type {
     margin-right: 14px;
 }

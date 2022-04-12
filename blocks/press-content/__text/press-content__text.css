@@ -1,7 +1,7 @@
 .press-content__text {
   width: 100%;
   margin: 0;
-  font-family: "SourceSansProLight";
+  font-family: $font;
   font-weight: 300;
   font-size: 30px;
   line-height: 42px;

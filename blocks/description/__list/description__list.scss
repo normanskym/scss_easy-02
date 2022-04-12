@@ -1,9 +1,10 @@
 .description__list {
+    @include font($font, 22px, 32px, 300);
     margin-top: 50px;
-    font-size: 22px;
-    line-height: 32px;
-    font-family: "SourceSansProLight";
-    font-weight: 300;
+    //font-size: 22px;
+    //line-height: 32px;
+    //font-family: $font;
+    //font-weight: 300;
     list-style-type: none;
     padding: 0;
 }

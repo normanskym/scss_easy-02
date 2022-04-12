@@ -342,42 +342,36 @@ template {
 }
 
 @font-face {
-  font-family: "SourceSansPro";
-  src: url("../fonts/SourceSansPro-Regular.woff") format("woff"), url("../fonts/SourceSansPro-Regular.woff2") format("woff2");
+  font-family: "SourceSans";
+  src: url("../fonts/SourceSansPro-Regular.woff") format("woff");
   font-style: normal;
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "SourceSansProLight";
-  src: url("../fonts/SourceSansPro-Light.woff") format("woff"), url("../fonts/SourceSansPro-Light.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 300;
 }
 
 .page {
   margin: 0 auto;
   background-color: #191D2C;
-  font-family: "SourceSansPro";
+  font-family: "SourceSans", sans-serif;
   font-weight: 400;
   color: #E1FD2C;
   min-width: 320px;
   max-width: 1440px;
-  overflow-x: hidden;
 }
 
 .section-title {
-  display: inline-block;
+  font-family: "SourceSans", sans-serif;
   font-size: 46px;
-  font-weight: normal;
   line-height: 46px;
+  font-weight: 400;
+  display: inline-block;
   margin: 50px 0 0 50px;
 }
 
 @media screen and (max-width: 767px) {
   .section-title {
+    font-family: "SourceSans", sans-serif;
     font-size: 26px;
     line-height: 26px;
+    font-weight: 400;
     margin: 20px 0 0 20px;
   }
 }
@@ -395,14 +389,15 @@ template {
 }
 
 .input {
+  font-family: "SourceSans", sans-serif;
+  font-size: 9px;
+  line-height: 18px;
+  font-weight: 400;
   background-color: transparent;
   border: none;
   color: #E1FD2C;
   text-transform: uppercase;
-  font-size: 9px;
-  line-height: 18px;
   letter-spacing: 1px;
-  font-family: inherit;
   padding: 7px 11px;
 }
 
@@ -411,39 +406,43 @@ template {
 }
 
 .input::-webkit-input-placeholder {
-  color: #E1FD2C;
-  text-transform: uppercase;
+  font-family: "SourceSans", sans-serif;
   font-size: 9px;
   line-height: 18px;
+  font-weight: 400;
+  color: #E1FD2C;
+  text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: inherit;
 }
 
 .input:-ms-input-placeholder {
-  color: #E1FD2C;
-  text-transform: uppercase;
+  font-family: "SourceSans", sans-serif;
   font-size: 9px;
   line-height: 18px;
+  font-weight: 400;
+  color: #E1FD2C;
+  text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: inherit;
 }
 
 .input::-ms-input-placeholder {
-  color: #E1FD2C;
-  text-transform: uppercase;
+  font-family: "SourceSans", sans-serif;
   font-size: 9px;
   line-height: 18px;
+  font-weight: 400;
+  color: #E1FD2C;
+  text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: inherit;
 }
 
 .input::placeholder {
-  color: #E1FD2C;
-  text-transform: uppercase;
+  font-family: "SourceSans", sans-serif;
   font-size: 9px;
   line-height: 18px;
+  font-weight: 400;
+  color: #E1FD2C;
+  text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: inherit;
 }
 
 .input:focus {
@@ -513,7 +512,7 @@ template {
 
 .header {
   width: 100%;
-  height: 70px;
+  min-height: 70px;
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -597,7 +596,10 @@ template {
 .header__button {
   position: absolute;
   display: none;
-  background-size: cover;
+  background-size: contain;
+  border: none;
+  background-color: transparent;
+  background-image: url("../images/Lines.png");
 }
 
 .header__button:hover {
@@ -607,11 +609,6 @@ template {
 @media screen and (max-width: 1023px) {
   .header__button {
     display: inline;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .header__button_type_open {
     width: 26px;
     height: 20px;
     top: 25px;
@@ -620,7 +617,7 @@ template {
 }
 
 @media screen and (max-width: 767px) {
-  .header__button_type_open {
+  .header__button {
     width: 20px;
     height: 16px;
     top: 27px;
@@ -628,17 +625,23 @@ template {
   }
 }
 
+.header__button_close {
+  background-image: url("../images/close.svg");
+}
+
 @media screen and (max-width: 1023px) {
-  .header__button_type_close {
+  .header__button_close {
     width: 42px;
+    height: 42px;
     top: 18px;
     right: 29px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .header__button_type_close {
+  .header__button_close {
     width: 40px;
+    height: 40px;
     top: 16px;
     right: 12px;
   }
@@ -712,37 +715,44 @@ template {
 }
 
 .lead-content__title {
-  width: 560px;
+  font-family: "SourceSans", sans-serif;
   font-size: 65px;
   line-height: 73px;
+  font-weight: 400;
+  width: 560px;
   text-align: center;
   margin: 30px auto 51px;
 }
 
 @media screen and (max-width: 767px) {
   .lead-content__title {
-    width: 280px;
-    height: 150px;
+    font-family: "SourceSans", sans-serif;
     font-size: 38px;
     line-height: 50px;
+    font-weight: 400;
+    width: 280px;
+    height: 150px;
     margin: 26px auto 30px;
   }
 }
 
 .lead-content__subtitle {
-  display: block;
-  text-align: center;
+  font-family: "SourceSans", sans-serif;
   font-size: 19px;
   line-height: 28px;
+  font-weight: 400;
+  display: block;
+  text-align: center;
   text-transform: uppercase;
-  font-weight: normal;
   margin: 0;
 }
 
 @media screen and (max-width: 767px) {
   .lead-content__subtitle {
+    font-family: "SourceSans", sans-serif;
     font-size: 11px;
     line-height: 14px;
+    font-weight: 400;
   }
 }
 
@@ -768,10 +778,16 @@ template {
 }
 
 .lead-content__button {
+  font-family: "SourceSans", sans-serif;
+  font-size: 15px;
+  line-height: 60px;
+  font-weight: 400;
   display: block;
   margin: 60px auto 0;
-  font-size: 15px;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
   width: 360px;
   height: 64px;
   background: transparent;
@@ -854,10 +870,11 @@ template {
 }
 
 .description__title {
+  font-family: "SourceSans", sans-serif;
   font-size: 30px;
-  font-weight: normal;
-  margin: 0;
   line-height: 37px;
+  font-weight: 400;
+  margin: 0;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -870,11 +887,11 @@ template {
 }
 
 .description__list {
-  margin-top: 50px;
+  font-family: "SourceSans", sans-serif;
   font-size: 22px;
   line-height: 32px;
-  font-family: "SourceSansProLight";
   font-weight: 300;
+  margin-top: 50px;
   list-style-type: none;
   padding: 0;
 }
@@ -931,15 +948,15 @@ template {
 }
 
 .description-content__title {
-  font-family: "SourceSansPro";
+  font-family: "SourceSans", sans-serif;
   font-weight: 400;
 }
 
 .description-content__text {
-  font-family: "SourceSansProLight";
-  font-weight: 300;
+  font-family: "SourceSans", sans-serif;
   font-size: 30px;
   line-height: 42px;
+  font-weight: 300;
   margin: 0;
   max-width: 560px;
 }
@@ -953,7 +970,6 @@ template {
 
 @media screen and (max-width: 767px) {
   .description-content__text {
-    display: block;
     font-size: 16px;
     line-height: 27px;
   }
@@ -983,16 +999,13 @@ template {
 
 @media screen and (max-width: 767px) {
   .gallery {
-    display: block;
     min-height: 320px;
     padding: 19px 0 20px;
   }
 }
 
-.gallery__button-back {
-  margin-right: 30px;
+.gallery__button {
   background: transparent;
-  background-image: url("../images/arrow-left.svg");
   background-size: contain;
   width: 42px;
   height: 34px;
@@ -1001,40 +1014,36 @@ template {
   transition: all .1s linear;
 }
 
-.gallery__button-back:hover {
+.gallery__button:hover {
   cursor: pointer;
   opacity: 0.6;
 }
 
 @media screen and (max-width: 767px) {
-  .gallery__button-back {
+  .gallery__button {
     width: 24px;
     height: 20px;
+  }
+}
+
+.gallery__button_type_back {
+  margin-right: 30px;
+  background-image: url("../images/arrow-left.svg");
+}
+
+@media screen and (max-width: 767px) {
+  .gallery__button_type_back {
     margin-right: 16px;
   }
 }
 
-.gallery__button-next {
-  background: transparent;
-  background-image: url("../images/arrow-right.svg");
-  background-size: contain;
-  width: 42px;
-  height: 34px;
-  border: none;
-  -webkit-transition: all .1s linear;
-  transition: all .1s linear;
+.gallery__button_type_next {
   margin-right: 52px;
-}
-
-.gallery__button-next:hover {
-  cursor: pointer;
-  opacity: 0.6;
+  background-image: url("../images/arrow-right.svg");
 }
 
 @media screen and (max-width: 767px) {
-  .gallery__button-next {
-    width: 24px;
-    height: 20px;
+  .gallery__button_type_next {
     margin-right: 20px;
   }
 }
@@ -1139,32 +1148,36 @@ template {
 }
 
 .press-content__source {
-  font-family: "SourceSansPro";
-  font-weight: 400;
+  font-family: "SourceSans", sans-serif;
   font-size: 30px;
   line-height: 42px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 767px) {
   .press-content__source {
+    font-family: "SourceSans", sans-serif;
     font-size: 16px;
     line-height: 27px;
+    font-weight: 400;
   }
 }
 
 .press-content__text {
-  width: 100%;
-  margin: 0;
-  font-family: "SourceSansProLight";
-  font-weight: 300;
+  font-family: "SourceSans", sans-serif;
   font-size: 30px;
   line-height: 42px;
+  font-weight: 300;
+  width: 100%;
+  margin: 0;
 }
 
 @media screen and (max-width: 767px) {
   .press-content__text {
+    font-family: "SourceSans", sans-serif;
     font-size: 16px;
     line-height: 27px;
+    font-weight: 300;
   }
 }
 
@@ -1180,30 +1193,41 @@ template {
       align-self: flex-end;
 }
 
+.press-content__list-button:hover {
+  opacity: 0.6;
+}
+
 .press-content__list-button:first-of-type {
   margin-right: 14px;
 }
 
-.press-content__list-button_type_active {
+.press-content__list-button_active {
   background-color: #E1FD2C;
 }
 
-.press-content__list-button_type_active:hover {
+.press-content__list-button_active:hover {
   cursor: pointer;
 }
 
 .press-content__read-button {
+  font-family: "SourceSans", sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+  font-weight: 400;
   background: transparent;
-  display: inline-block;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   width: 110px;
   height: 52px;
+  padding-top: 10px;
   background-image: url("../images/button-read.png");
   background-size: contain;
   border: none;
   color: #E1FD2C;
-  font-size: 19px;
-  line-height: 28px;
   vertical-align: bottom;
+  text-decoration: none;
+  text-align: center;
   -webkit-transition: .1s linear all;
   transition: .1s linear all;
 }
@@ -1216,8 +1240,13 @@ template {
 
 @media screen and (max-width: 767px) {
   .press-content__read-button {
+    font-family: "SourceSans", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
     width: 88px;
     height: 42px;
+    padding-top: 5px;
   }
 }
 
@@ -1226,7 +1255,6 @@ template {
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
-  height: 316px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1249,15 +1277,18 @@ template {
 
 .footer-subscription__subtitle {
   margin: 16px 0 0 50px;
-  font-weight: normal;
+  font-family: "SourceSans", sans-serif;
   font-size: 19px;
   line-height: 28px;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 767px) {
   .footer-subscription__subtitle {
+    font-family: "SourceSans", sans-serif;
     font-size: 14px;
     line-height: 14px;
+    font-weight: 400;
     margin: 14px 0 0 20px;
   }
 }
@@ -1294,10 +1325,13 @@ template {
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
+  -webkit-transition: .1s linear all;
+  transition: .1s linear all;
 }
 
 .footer-subscription__button:hover {
   cursor: pointer;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 767px) {
@@ -1341,8 +1375,10 @@ template {
 }
 
 .footer-logo__copyright {
+  font-family: "SourceSans", sans-serif;
   font-size: 13px;
   line-height: 13px;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -1352,4 +1388,4 @@ template {
     margin: 20px 0 20px 32px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=index.css.map */

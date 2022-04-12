@@ -1,6 +1,5 @@
 .footer-logo__copyright {
-    font-size: 13px;
-    line-height: 13px;
+    @include font($font, 13px, 13px, 400);
     letter-spacing: 1px;
 }
 

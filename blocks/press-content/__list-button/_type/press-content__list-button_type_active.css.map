@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,uCAAuC,CAAC;EACpC,gBAAgB,EAAE,OAAO;CAC5B;;AAED,AAAA,uCAAuC,AAAA,MAAM,CAAC;EAC1C,MAAM,EAAE,OAAO;CAClB",
-    "sources": [
-        "press-content__list-button_type_active.scss"
-    ],
-    "names": [],
-    "file": "press-content__list-button_type_active.css"
-}

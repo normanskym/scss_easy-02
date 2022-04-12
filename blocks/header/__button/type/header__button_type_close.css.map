@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,0BAA0B,CAAC;IACvB,KAAK,EAAE,IAAI;IACX,GAAG,EAAE,IAAI;IACT,KAAK,EAAE,IAAI;GACd;;;AAGL,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,0BAA0B,CAAC;IACvB,KAAK,EAAE,IAAI;IACX,GAAG,EAAE,IAAI;IACT,KAAK,EAAE,IAAI;GACd",
-    "sources": [
-        "header__button_type_close.scss"
-    ],
-    "names": [],
-    "file": "header__button_type_close.css"
-}

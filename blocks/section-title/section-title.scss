@@ -1,15 +1,12 @@
 .section-title {
+    @include font($font, 46px, 46px, 400);
     display: inline-block;
-    font-size: 46px;
-    font-weight: normal;
-    line-height: 46px;
     margin: 50px 0 0 50px;
 }
 
 @media screen and (max-width: $mobile) {
     .section-title {
-        font-size: 26px;
-        line-height: 26px;
+        @include font($font, 26px, 26px, 400);
         margin: 20px 0 0 20px;
     }
 }

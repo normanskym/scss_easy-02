@@ -1,8 +1,11 @@
 .lead-content__button {
+    @include font($font, 15px, 60px, 400);
     display: block;
     margin: 60px auto 0;
-    font-size: 15px;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
     width: 360px;
     height: 64px;
     background: transparent;

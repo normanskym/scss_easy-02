@@ -1,0 +1,10 @@
+.gallery__button_type_back {
+    margin-right: 30px;
+    background-image: url('../images/arrow-left.svg');
+}
+
+@media screen and (max-width: $mobile) {
+    .gallery__button_type_back {
+        margin-right: 16px;
+    }
+}

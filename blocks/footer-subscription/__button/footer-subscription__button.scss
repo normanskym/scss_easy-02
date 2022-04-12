@@ -11,10 +11,12 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: center;
+    transition: .1s linear all;
 }
 
 .footer-subscription__button:hover {
     cursor: pointer;
+    opacity: 0.6;
 }
 
 @media screen and (max-width: $mobile) {

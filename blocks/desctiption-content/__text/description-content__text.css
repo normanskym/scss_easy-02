@@ -1,5 +1,5 @@
 .description-content__text {
-  font-family: "SourceSansProLight";
+  font-family: $font;
   font-weight: 300;
   font-size: 30px;
   line-height: 42px;

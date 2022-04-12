@@ -1,15 +1,11 @@
 .press-content__text {
+    @include font($font, 30px, 42px, 300);
     width: 100%;
     margin: 0;
-    font-family: "SourceSansProLight";
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 42px;
 }
 
 @media screen and (max-width: $mobile) {
     .press-content__text {
-        font-size: 16px;
-        line-height: 27px;
+        @include font($font, 16px, 27px, 300);
     }
 }
