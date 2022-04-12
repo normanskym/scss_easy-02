@@ -1,0 +1,16 @@
+.description__title {
+  font-size: 30px;
+  font-weight: normal;
+  margin: 0;
+  line-height: 37px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 767px) {
+  .description__title {
+    font-size: 22px;
+    line-height: 22px;
+  }
+}
+/*# sourceMappingURL=description__title.css.map */

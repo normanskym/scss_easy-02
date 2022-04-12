@@ -1,0 +1,32 @@
+.press-content__read-button {
+    @include font($font, 19px, 28px, 400);
+    background: transparent;
+    display: block;
+    box-sizing: border-box;
+    width: 110px;
+    height: 52px;
+    padding-top: 10px;
+    background-image: url('../images/button-read.png');
+    background-size: contain;
+    border: none;
+    color: $yellow;
+    vertical-align: bottom;
+    text-decoration: none;
+    text-align: center;
+    transition: .1s linear all;
+}
+
+.press-content__read-button:hover {
+    background-image: url('../images/button-read_hover.png');
+    color: $blue;
+    cursor: pointer;
+}
+
+@media screen and (max-width: $mobile) {
+    .press-content__read-button {
+        @include font($font, 14px, 28px, 400);
+        width: 88px;
+        height: 42px;
+        padding-top: 5px;
+    }
+}

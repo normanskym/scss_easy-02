@@ -1,0 +1,22 @@
+.press-content {
+    grid-area: content;
+    border-left: $border;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: $tablet) {
+    .press-content {
+        height: 100%;
+        border-left: none;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .press-content {
+        padding: 20px;
+    }
+}

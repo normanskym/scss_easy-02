@@ -1,0 +1,12 @@
+.lead-image {
+    grid-area: lead-image;
+    display: grid;
+    padding: 150px 0 150px;
+    width: 100%;
+}
+
+@media screen and (max-width: $tablet) {
+    .lead-image {
+        display: none;
+    }
+}

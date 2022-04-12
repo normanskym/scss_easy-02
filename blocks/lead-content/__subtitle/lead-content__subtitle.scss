@@ -1,0 +1,13 @@
+.lead-content__subtitle {
+    @include font($font, 19px, 28px, 400);
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+@media screen and (max-width: $mobile) {
+    .lead-content__subtitle {
+        @include font($font, 11px, 14px, 400);
+    }
+}

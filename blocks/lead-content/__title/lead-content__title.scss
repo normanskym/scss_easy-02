@@ -1,0 +1,15 @@
+.lead-content__title {
+    @include font($font, 65px, 73px, 400);
+    width: 560px;
+    text-align: center;
+    margin: 30px auto 51px;
+}
+
+@media screen and (max-width: $mobile) {
+    .lead-content__title {
+        @include font($font, 38px, 50px, 400);
+        width: 280px;
+        height: 150px;
+        margin: 26px auto 30px;
+    }
+}

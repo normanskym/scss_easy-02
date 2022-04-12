@@ -1,0 +1,26 @@
+.footer-subscription__button {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 80px;
+  height: 32px;
+  border: none;
+  background-color: #E1FD2C;
+  color: #191D2C;
+  font-size: 10px;
+  line-height: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.footer-subscription__button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-subscription__button {
+    width: 79px;
+  }
+}
+/*# sourceMappingURL=footer-subscription__button.css.map */

@@ -1,0 +1,10 @@
+.footer-subscription {
+    border-right: $border;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: $tablet) {
+    .footer-subscription {
+        border-right: none;
+    }
+}

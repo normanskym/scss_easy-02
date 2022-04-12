@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACjB,YAAY,EAAE,iBAAiB;EAC/B,UAAU,EAAE,UAAU;CACzB;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,MAAM;EAChC,AAAA,oBAAoB,CAAC;IACjB,YAAY,EAAE,IAAI;GACrB",
+    "sources": [
+        "footer-subscription.scss"
+    ],
+    "names": [],
+    "file": "footer-subscription.css"
+}

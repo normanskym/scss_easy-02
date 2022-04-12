@@ -1,0 +1,9 @@
+@media screen and (max-width: 767px) {
+  .footer-logo__picture {
+    display: block;
+    width: 280px;
+    height: 58px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=footer-logo__picture.css.map */

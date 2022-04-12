@@ -1,0 +1,11 @@
+.footer-subscription__subtitle {
+    margin: 16px 0 0 50px;
+    @include font($font, 19px, 28px, 400);
+}
+
+@media screen and (max-width: $mobile) {
+    .footer-subscription__subtitle {
+        @include font($font, 14px, 14px, 400);
+        margin: 14px 0 0 20px;
+    }
+}

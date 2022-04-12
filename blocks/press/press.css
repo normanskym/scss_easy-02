@@ -1,0 +1,16 @@
+.press {
+  grid-area: press;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: ". content";
+  border-bottom: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 1023px) {
+  .press {
+    display: block;
+  }
+}
+/*# sourceMappingURL=press.css.map */

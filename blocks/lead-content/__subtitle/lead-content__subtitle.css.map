@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACpB,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,SAAS;EACzB,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,CAAC;CACZ;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,uBAAuB,CAAC;IACpB,SAAS,EAAE,IAAI;IACf,WAAW,EAAE,IAAI;GACpB",
+    "sources": [
+        "lead-content__subtitle.scss"
+    ],
+    "names": [],
+    "file": "lead-content__subtitle.css"
+}

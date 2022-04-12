@@ -1,0 +1,17 @@
+.lead-content__subtitle {
+  display: block;
+  text-align: center;
+  font-size: 19px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .lead-content__subtitle {
+    font-size: 11px;
+    line-height: 14px;
+  }
+}
+/*# sourceMappingURL=lead-content__subtitle.css.map */

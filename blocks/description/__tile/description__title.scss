@@ -1,0 +1,13 @@
+.description__title {
+    @include font($font, 30px, 37px, 400);
+    margin: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: $mobile) {
+    .description__title {
+        font-size: 22px;
+        line-height: 22px;
+    }
+}

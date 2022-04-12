@@ -1,0 +1,9 @@
+.press-content__source {
+    @include font($font, 30px, 42px, 400);
+}
+
+@media screen and (max-width: $mobile) {
+    .press-content__source {
+        @include font($font, 16px, 27px, 400);
+    }
+}

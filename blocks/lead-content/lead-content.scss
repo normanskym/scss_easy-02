@@ -1,0 +1,18 @@
+.lead-content {
+    box-sizing: border-box;
+    grid-area: lead-content;
+    padding: 180px 0 180px;
+}
+
+@media screen and (max-width: $tablet) {
+    .lead-content {
+        padding: 100px 34px;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .lead-content {
+        padding: 60px 20px;
+    }
+}

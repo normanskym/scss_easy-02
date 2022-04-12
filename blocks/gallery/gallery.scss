@@ -1,0 +1,25 @@
+.gallery {
+    grid-area: gallery;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "gallery-image .";
+    border-bottom: $border;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: $tablet) {
+    .gallery {
+        display: block;
+        min-height: 691px;
+        padding: 34px 0 50px;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .gallery {
+        min-height: 320px;
+        padding: 19px 0 20px;
+    }
+    
+}

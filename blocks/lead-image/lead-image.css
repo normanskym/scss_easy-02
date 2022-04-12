@@ -1,0 +1,14 @@
+.lead-image {
+  grid-area: lead-image;
+  display: -ms-grid;
+  display: grid;
+  padding: 150px 0 150px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead-image {
+    display: none;
+  }
+}
+/*# sourceMappingURL=lead-image.css.map */

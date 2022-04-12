@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,4BAA4B,CAAC;EACzB,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,gBAAgB;EACxB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,iBAAiB;CAC5B;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,4BAA4B,CAAC;IACzB,MAAM,EAAE,iBAAiB;IACzB,KAAK,EAAE,KAAK;GACf",
+    "sources": [
+        "footer-subscription__inputs.scss"
+    ],
+    "names": [],
+    "file": "footer-subscription__inputs.css"
+}

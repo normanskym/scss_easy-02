@@ -1,0 +1,22 @@
+.header__menu-item {
+  color: #E1FD2C;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  -webkit-transition: .1s all linear;
+  transition: .1s all linear;
+}
+
+.header__menu-item:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 767px) {
+  .header__menu-item {
+    font-size: 11px;
+    margin-right: 16px;
+  }
+}
+/*# sourceMappingURL=header__menu-item.css.map */

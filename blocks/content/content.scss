@@ -1,0 +1,22 @@
+.content {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 840px auto auto 500px;
+    grid-template-areas: 
+    "lead"
+    "description"
+    "gallery"
+    "press";
+}
+
+@media screen and (max-width: $tablet) {
+    .content {
+        grid-template-rows: 1330px 928px 691px 500px;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .content {
+        grid-template-rows: 740px 656px 320px 287px;
+    }
+}

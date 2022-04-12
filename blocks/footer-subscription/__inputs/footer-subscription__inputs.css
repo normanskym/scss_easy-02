@@ -1,0 +1,18 @@
+.footer-subscription__inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 64px 0 50px 50px;
+  width: 340px;
+  border: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-subscription__inputs {
+    margin: 60px 0 120px 20px;
+    width: 280px;
+  }
+}
+/*# sourceMappingURL=footer-subscription__inputs.css.map */

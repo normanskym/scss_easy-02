@@ -1,0 +1,13 @@
+.header__logo {
+    display: block;
+    width: 184px;
+    height: 38px;
+    margin: auto;
+}
+
+@media screen and (max-width: $mobile) {
+    .header__logo {
+        width: 100px;
+        height: 20px;
+    }
+}

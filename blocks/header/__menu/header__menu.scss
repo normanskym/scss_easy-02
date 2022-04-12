@@ -1,0 +1,22 @@
+.header__menu {
+    list-style: none;
+    position: absolute;
+    top: 27px;
+    left: 50px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: $tablet) {
+    .header__menu {
+        display: none;
+        left: 34px;
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .header__menu {
+        left: 20px;
+    }
+}

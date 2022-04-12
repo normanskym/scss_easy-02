@@ -1,0 +1,16 @@
+.lead {
+    grid-area: lead;
+    display: grid;
+    max-width: 1440px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "lead-content lead-image";
+    border-bottom: $border;
+}
+
+@media screen and (max-width: $tablet) {
+    .lead {
+        display: block;
+    }
+}

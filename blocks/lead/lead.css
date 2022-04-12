@@ -1,0 +1,19 @@
+.lead {
+  grid-area: lead;
+  display: -ms-grid;
+  display: grid;
+  max-width: 1440px;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+      grid-template-areas: "lead-content lead-image";
+  border-bottom: 1px solid #E1FD2C;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    display: block;
+  }
+}
+/*# sourceMappingURL=lead.css.map */

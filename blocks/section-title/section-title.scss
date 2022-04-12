@@ -1,0 +1,12 @@
+.section-title {
+    @include font($font, 46px, 46px, 400);
+    display: inline-block;
+    margin: 50px 0 0 50px;
+}
+
+@media screen and (max-width: $mobile) {
+    .section-title {
+        @include font($font, 26px, 26px, 400);
+        margin: 20px 0 0 20px;
+    }
+}

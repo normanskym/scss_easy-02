@@ -1,0 +1,29 @@
+.press-content__read-button {
+  background: transparent;
+  display: inline-block;
+  width: 110px;
+  height: 52px;
+  background-image: url("../images/button-read.png");
+  background-size: contain;
+  border: none;
+  color: #E1FD2C;
+  font-size: 19px;
+  line-height: 28px;
+  vertical-align: bottom;
+  -webkit-transition: .1s linear all;
+  transition: .1s linear all;
+}
+
+.press-content__read-button:hover {
+  background-image: url("../images/button-read_hover.png");
+  color: #191D2C;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .press-content__read-button {
+    width: 88px;
+    height: 42px;
+  }
+}
+/*# sourceMappingURL=press-content__read-button.css.map */

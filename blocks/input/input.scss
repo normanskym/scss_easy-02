@@ -1,0 +1,28 @@
+.input {
+    @include font($font, 9px, 18px, 400);
+    background-color: transparent;
+    border: none;
+    color: $yellow;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 7px 11px;
+}
+
+.input:hover {
+    cursor: pointer;
+}
+
+.input::placeholder {
+    @include font($font, 9px, 18px, 400);
+    color: $yellow;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.input:focus::placeholder {
+    color: transparent;
+}

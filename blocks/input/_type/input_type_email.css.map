@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,UAAU;EACtB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACf;;AAED,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EAC/B,AAAA,iBAAiB,CAAC;IACd,KAAK,EAAE,KAAK;GACf",
+    "sources": [
+        "input_type_email.scss"
+    ],
+    "names": [],
+    "file": "input_type_email.css"
+}

@@ -1,0 +1,16 @@
+.press-content__list-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: transparent;
+  border: 1px solid #E1FD2C;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.press-content__list-button:first-of-type {
+  margin-right: 14px;
+}
+/*# sourceMappingURL=press-content__list-button.css.map */

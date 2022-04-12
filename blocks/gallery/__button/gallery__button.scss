@@ -1,0 +1,21 @@
+.gallery__button {
+    background: transparent;
+    background-size: contain;
+    width: 42px;
+    height: 34px;
+    border: none;
+    transition: all .1s linear;
+
+}
+
+.gallery__button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: $mobile) {
+    .gallery__button {
+        width: 24px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,16 @@
+.press-content__text {
+  width: 100%;
+  margin: 0;
+  font-family: $font;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+@media screen and (max-width: 767px) {
+  .press-content__text {
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+/*# sourceMappingURL=press-content__text.css.map */

@@ -1,0 +1,16 @@
+.header__button {
+  position: absolute;
+  display: none;
+  background-size: cover;
+}
+
+.header__button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__button {
+    display: inline;
+  }
+}
+/*# sourceMappingURL=header__button.css.map */
